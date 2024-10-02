@@ -42,5 +42,5 @@ for k in $(echo "$move_up");    do bind_key_vim "$k" "select-pane -U"; done
 for k in $(echo "$move_prev");  do bind_key_vim "$k" "select-pane -l"; done
 
 # Restoring clear screen
-# tmux bind C-l send-keys 'C-l'
+tmux bind C-l send-keys 'C-l'
 
